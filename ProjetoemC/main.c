@@ -19,6 +19,33 @@ int main() {
 
 soma(2,5);
 printf("%d\n", soma);
+int arrayrray[7]={12, 15,4,10,8,5,2};
+int tamanho = 7;
+int aux;
+ for(int i = 0; i<tamanho;i++){
+printf("%d\n", arrayrray[i]);
+ }
+if(arrayrray[0]<arrayrray[1]){
+        aux = arrayrray[0];
+        arrayrray[0]=arrayrray[1];
+        arrayrray[1]=aux;
+    printf("ok\n");
+printf("%d\n",arrayrray[0]);
+printf("%d\n",arrayrray[1]);
+
+
+}
+for(int i =0;i<tamanho;i++){
+    if(arrayrray[i]<arrayrray[i+1]){
+        aux = arrayrray[i];
+        arrayrray[i]=arrayrray[i+1];
+        arrayrray[i+1]=aux;
+    }
+    printf(" %d ",arrayrray[i]);
+
+}
+
+
     return 0;
 }
 

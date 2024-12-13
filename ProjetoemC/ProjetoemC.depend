@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1733973818 source:/home/Rafaelbsilva/Documents/ProjectsOne/ProgramasemC/ProjetoemC/main.c
+	<stdio.h>
+	<stdlib.h>
+
